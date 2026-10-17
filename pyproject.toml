@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops-project-code"
+version = "0.1.0"
+description = "MLOps project scaffold for k-ghulam/MLOPS-Project-Code"
+authors = [{name = "k-ghulam"}]
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.dependencies]
+pandas = ">=1.4"
+scikit-learn = ">=1.0"
+joblib = "*"
+pytest = "*"
+
